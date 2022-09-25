@@ -19,7 +19,7 @@ function randomRengliQutularyarat () {
 
      myDivEl.style.position="absolute"
      myDivEl.style.left = "${leftPx}"
-     myDivEl.style.top = "$topPx"
+     myDivEl.style.top = "${topPx}"
 
      container.appendChild(myDivEl)
 }
