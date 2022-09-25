@@ -10,7 +10,7 @@ function randomRengliQutularyarat () {
      const topPx = Math.floor(Math.random()*800)
      const leftPx = Math.floor(Math.random()*1200)
 
-
+     console.log(topPx, leftPx)
 
      const myDivEl = document.createElement("div")
      myDivEl.style.width= "30px"
@@ -18,8 +18,8 @@ function randomRengliQutularyarat () {
      myDivEl.style.backgroundColor=randomColor
 
      myDivEl.style.position="absolute"
-     myDivEl.style.left = "${leftPx}"
-     myDivEl.style.top = "${topPx}"
+     myDivEl.style.left = "${leftPx}px"
+     myDivEl.style.top = "${topPx}px"
 
      container.appendChild(myDivEl)
 }
